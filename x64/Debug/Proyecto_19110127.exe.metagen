@@ -1,0 +1,55 @@
+  Proyecto19110127.Apnea.resources - Embedded, ContainedInManifestFile, 
+  Proyecto19110127.Coronaria.resources - Embedded, ContainedInManifestFile, 
+  Proyecto19110127.Datos_Generales.resources - Embedded, ContainedInManifestFile, 
+  Proyecto19110127.Diabetes.resources - Embedded, ContainedInManifestFile, 
+  Proyecto19110127.Menu_General.resources - Embedded, ContainedInManifestFile, 
+  Proyecto19110127.Ventana_Principal.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Proyecto_19110127, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Proyecto19110127.Ventana_Principal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto19110127.Diabetes: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String nombre_Diabetes : Public
+    System.String genero_Diabetes : Public
+    Double altura_mDiabetes : Public
+    Double IMC_Diabetes : Public
+    Double edad_Diabetes : Public
+    Double altura_Diabetes : Public
+    Double peso_Diabetes : Public
+Class Proyecto19110127.Datos_Generales: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String nombre : Public, Static
+    Double altura_m : Public, Static
+    Double IMC : Public, Static
+    Double altura : Public, Static
+    Double peso : Public, Static
+    Int32 edad : Public, Static
+    Int32 genero : Public, Static
+Class Proyecto19110127.Apnea: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto19110127.Coronaria: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto19110127.Menu_General: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
